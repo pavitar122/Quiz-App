@@ -1300,7 +1300,7 @@ function renderAppHome() {
   let html = `
     <div class="app-header">
       <span class="dwg-tag mono">DWG-INDEX &middot; CIVIL ENGINEERING QUIZ HUB</span>
-      <h1 class="serif">Civil Engineering Objective Practice</h1>
+      <h1 class="serif">Civil Engineering Objective Practice Questions</h1>
       <p>Switch between question-bank apps below. Progress, bookmarks, and mistake history are saved automatically on this device, per subject.</p>
     </div>
     ${switcherHtml}
