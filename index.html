@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Civil Engineering Quiz Hub — Practice &amp; Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- registration / crop marks, like a printed drawing sheet -->
+  <div class="reg-mark reg-tl"></div>
+  <div class="reg-mark reg-bl"></div>
+  <div class="reg-mark reg-br"></div>
+
+  <div id="top-controls">
+    <button id="theme-toggle" class="icon-btn" onclick="toggleTheme()" title="Switch print process">
+      <span class="swatch" id="theme-swatch"></span><span id="theme-label">CYANOTYPE</span>
+    </button>
+  </div>
+
+  <div id="app"></div>
+
+  <!-- Title block — the metadata strip every technical drawing carries -->
+  <div class="title-block mono" id="title-block">
+    <div class="tb-field"><span class="tb-label">PROJECT</span><span class="tb-value" id="tb-project">—</span></div>
+    <div class="tb-field"><span class="tb-label">SHEET</span><span class="tb-value" id="tb-sheet">—</span></div>
+    <div class="tb-field"><span class="tb-label">SCALE</span><span class="tb-value" id="tb-scale">—</span></div>
+    <div class="tb-field"><span class="tb-label">REV</span><span class="tb-value" id="tb-rev">—</span></div>
+    <div class="tb-field"><span class="tb-label">DATE</span><span class="tb-value" id="tb-date">—</span></div>
+  </div>
+
+  <!-- Data (loaded before app logic) — grouped by app -->
+  <script src="data/civil-engineering-1/construction-planning-management.js"></script>
+  <script src="data/civil-engineering-1/estimation-and-costing.js"></script>
+  <script src="data/civil-engineering-1/surveying.js"></script>
+  <script src="data/civil-engineering-1/building-construction.js"></script>
+  <script src="data/civil-engineering-1/highway.js"></script>
+  <script src="data/civil-engineering-1/hydrology.js"></script>
+  <script src="data/civil-engineering-1/irrigation-engineering.js"></script>
+  <script src="data/civil-engineering-1/railway.js"></script>
+  <script src="data/civil-engineering-1/concrete-technology.js"></script>
+  <script src="data/civil-engineering-1/sewage-pollution.js"></script>
+  <script src="data/civil-engineering-1/water-supply.js"></script>
+  <script src="data/civil-engineering-1/building-materials.js"></script>
+  <script src="data/civil-engineering-1/rcc.js"></script>
+  <script src="data/civil-engineering-1/steel.js"></script>
+
+
+
+
+  <script src="data/civil-engineering-2/engineering_drawing.js"></script>
+  <script src="data/civil-engineering-2/construction_materials.js"></script>
+
+
+  <script src="data/non-technical/general-english.js"></script>
+  <script src="data/non-technical/punjabi-gk.js"></script>
+
+
+
+
+  <!-- App logic -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
