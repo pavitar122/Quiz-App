@@ -45,7 +45,7 @@ const RAW_CATEGORIES = [
   Object.assign({ icon: "🧱", group: "civil1" }, window.QUIZ_CATEGORY_BUILDM),
   Object.assign({ icon: "📏", group: "civil1" }, window.QUIZ_CATEGORY_SUR),
   Object.assign({ icon: "🚉", group: "civil1" }, window.QUIZ_CATEGORY_RAI),
-  Object.assign({ icon: "📐", group: "civil1" }, window.QUIZ_CATEGORY_HIG),
+  Object.assign({ icon: "📐", group: "civil1" }, window.QUIZ_CATEGORY_HIGHWAY_ENGINEERING),
   Object.assign({ icon: "🏞", group: "civil1" }, window.QUIZ_CATEGORY_IRRIGATION_ENGINEERING),
   Object.assign({ icon: "🦺", group: "civil1" }, window.QUIZ_CATEGORY_CONCRETE_TECHNOLOGY),
   Object.assign({ icon: "🚽", group: "civil1" }, window.QUIZ_CATEGORY_SEWA),
@@ -53,6 +53,7 @@ const RAW_CATEGORIES = [
   Object.assign({ icon: "💧", group: "civil1" }, window.QUIZ_CATEGORY_HYD),
   Object.assign({ icon: "🏢", group: "civil1" }, window.QUIZ_CATEGORY_RCC),
   Object.assign({ icon: "🌉", group: "civil1" }, window.QUIZ_CATEGORY_STEEL),
+  Object.assign({ icon: "🛳", group: "civil1" }, window.QUIZ_CATEGORY_FLUID_MECHANICS),
 
   Object.assign({ icon: "🖋", group: "civil2" }, window.QUIZ_CATEGORY_ENGG_DRAWING),
   Object.assign({ icon: "🌇", group: "civil2" }, window.QUIZ_CATEGORY_CMRM),
