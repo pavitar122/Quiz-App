@@ -57,10 +57,17 @@ const RAW_CATEGORIES = [
 
   Object.assign({ icon: "🖋", group: "civil2" }, window.QUIZ_CATEGORY_ENGG_DRAWING),
   Object.assign({ icon: "🌇", group: "civil2" }, window.QUIZ_CATEGORY_CMRM),
+
   Object.assign(
-    { icon: "🔤", group: "nontechnical" },
+    { icon: "📚", group: "nontechnical" },
     window.QUIZ_CATEGORY_PUNJAB_GK,
   ),
+
+    Object.assign(
+    { icon: "🎒", group: "nontechnical" },
+    window.QUIZ_CATEGORY_PUNJABI_GRAMMAR,
+  ),
+
     Object.assign(
     { icon: "💽", group: "nontechnical" },
     window.QUIZ_CATEGORY_COMPUTER_AWARENESS,
