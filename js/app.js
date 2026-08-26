@@ -61,6 +61,10 @@ const RAW_CATEGORIES = [
     { icon: "🔤", group: "nontechnical" },
     window.QUIZ_CATEGORY_PUNJAB_GK,
   ),
+    Object.assign(
+    { icon: "💽", group: "nontechnical" },
+    window.QUIZ_CATEGORY_COMPUTER_AWARENESS,
+  ),
 ];
 // Maps a category id to the exact global variable name + source file path it
 // was loaded from, so "Export Data File" can regenerate a drop-in replacement.
