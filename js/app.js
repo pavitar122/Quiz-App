@@ -41,7 +41,7 @@ const APP_GROUPS = [
 const RAW_CATEGORIES = [
   Object.assign({ icon: "💻", group: "civil1" }, window.QUIZ_CATEGORY_CPM),
   Object.assign({ icon: "🧮", group: "civil1" }, window.QUIZ_CATEGORY_ECV),
-  Object.assign({ icon: "⚙️", group: "civil1" }, window.QUIZ_CATEGORY_BUIC),
+  Object.assign({ icon: "⛏", group: "civil1" }, window.QUIZ_CATEGORY_BUIC),
   Object.assign({ icon: "🧱", group: "civil1" }, window.QUIZ_CATEGORY_BUILDM),
   Object.assign({ icon: "📏", group: "civil1" }, window.QUIZ_CATEGORY_SUR),
   Object.assign({ icon: "🚉", group: "civil1" }, window.QUIZ_CATEGORY_RAI),
@@ -54,6 +54,7 @@ const RAW_CATEGORIES = [
   Object.assign({ icon: "🏢", group: "civil1" }, window.QUIZ_CATEGORY_RCC),
   Object.assign({ icon: "🌉", group: "civil1" }, window.QUIZ_CATEGORY_STEEL),
   Object.assign({ icon: "🛳", group: "civil1" }, window.QUIZ_CATEGORY_FLUID_MECHANICS),
+  Object.assign({ icon: "🌲", group: "civil1" }, window.QUIZ_CATEGORY_SOIL_MECHANICS),
 
   Object.assign({ icon: "🖋", group: "civil2" }, window.QUIZ_CATEGORY_ENGG_DRAWING),
   Object.assign({ icon: "🌇", group: "civil2" }, window.QUIZ_CATEGORY_CMRM),
